@@ -1,0 +1,6 @@
+[submodule "FFmpeg-Commands"]
+	path = FFmpeg-Commands
+	url = https://github.com/Fetchinator7/FFmpeg-Commands.git
+[submodule "System-Commands"]
+	path = System-Commands
+	url = https://github.com/Fetchinator7/System-Commands.git
