@@ -15,7 +15,7 @@ import datetime as dates
 
 delete_after_ren = False
 create_month_date_dir = True
-short_duration_sec_threshold = 30
+short_duration_sec_threshold = 20
 
 # These are the names of the different output folders.
 out_key = 'Out'
