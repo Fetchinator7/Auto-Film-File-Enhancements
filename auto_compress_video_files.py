@@ -28,6 +28,11 @@ input_directory = Path.joinpath(parent_folder, 'In')
 output_directory = Path.joinpath(parent_folder, out_key)
 output_short_directory = Path.joinpath(output_directory, short_key)
 
+if input_directory.exists() is False:
+	input_directory.mkdir()
+if output_directory.exists() is False:
+	output_directory.mkdir()
+
 if type(input_directory) is PosixPath:
 	# A mac may generate a .DS_Store file that isn't necessary and this script produces an error when the input is a
 	#   .DS_Store so delete that file if it exists for the input and output directories.
