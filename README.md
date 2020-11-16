@@ -26,7 +26,7 @@ choco install ffmpeg -y
 ### Both
 
 In a terminal window, type `cd ` (with a space afterward), drag-and-drop the folder on your computer where you want to store this project on top of the terminal window, (this will add any escape characters) and press enter.
-Since you have `git` now (it's one of the dependencies) clone the project by entering `git clone https://github.com/Fetchinator7/Auto-Film-File-Enhancments.git`. Next **change directory** into the project folder by entering `cd ` (with a space afterward) again, use the **tab** button to autocomplete the folder path, and import the submodules by entering `git submodule update --init --recursive`.
+Since you have `git` now (it's one of the dependencies) clone the project by entering `git clone https://github.com/Fetchinator7/Auto-Film-File-Enhancements.git`. Next **change directory** into the project folder by entering `cd ` (with a space afterward) again, use the **tab** button to autocomplete the folder path, and import the submodules by entering `git submodule update --init --recursive`.
 
 (If you're having issues running the project try entering `git pull --recurse-submodules` in case there were any updates to the submodules.)
 
